@@ -11,3 +11,5 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: print out file
+        run: cat test
