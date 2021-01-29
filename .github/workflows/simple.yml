@@ -14,4 +14,6 @@ jobs:
       - name: print out file
         run: |
           pwd
+          echo "start"
           ls
+          echo "stop"
