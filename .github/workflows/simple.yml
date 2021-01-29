@@ -11,9 +11,8 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: print out file
+      - name: print command
         run: |
-          pwd
-          echo "start"
-          ls
-          echo "stop"
+          import platform
+          print(platform.processor())
+        shell: python
